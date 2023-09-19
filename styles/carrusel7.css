@@ -1,0 +1,84 @@
+.carousel7 {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between; /* Espaciado entre los botones */
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.slide7 {
+  display: none;
+  text-align: right;
+}
+.slide7 img {
+  max-width: 40%;
+  height: auto;
+}
+
+.wallet {
+  background-color: transparent;
+  color: gray;
+  padding: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: -400px;
+  position: relative;
+  top: 20px;
+  left: 200px;
+}
+
+.txt-wallet {
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: -400px;
+  left: 400px;
+}
+
+#prevsiete,
+#nextsiete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#prevsiete img,
+#nextsiete img {
+  width: 30px; /* Establece el ancho deseado */
+  height: 30px; /* Establece la altura deseada */
+}
+
+/*.nav-izq {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          padding: 10px;
+        }
+        
+        .nav-der {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          padding: 10px;
+        }*/
+
+.nav-der7 .nav-izq7 {
+  justify-content: space-evenly;
+  top: 50px;
+  left: -20px;
+}
+
+#nextsiete {
+  position: relative;
+  top: -300px;
+  left: 1000px;
+}
+
+#prevsiete {
+  position: relative;
+  top: -300px;
+  left: 700px;
+}

@@ -1,0 +1,51 @@
+#btn-conrec1 {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-conrec1 img {
+  max-width: 50%;
+  position: relative;
+  top: 50px;
+  left: -450px;
+}
+
+#link-conrec1 {
+  text-decoration: none;
+}
+
+#btn-conrec2 {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-conrec2 img {
+  max-width: 50%;
+  position: relative;
+  top: -325px;
+  left: 400px;
+}
+
+#link-conrec2 {
+  text-decoration: none;
+}
+
+#btn-conrec1 img #btn-conrec2 img {
+  justify-content: flex-start;
+}
+
+.ttl-conrec {
+  font-family: sans-serif;
+  text-align: start;
+  position: relative;
+  top: -200px;
+  left: 100px;
+}

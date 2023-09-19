@@ -1,0 +1,31 @@
+.cont-lab {
+  text-align: center;
+}
+
+.cont-lab img {
+  max-width: 240px;
+  height: auto;
+  position: relative;
+  top: -40px;
+  left: 300px;
+}
+
+.txt-kalab {
+  background-color: transparent;
+  color: gray;
+  padding: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: -150px;
+  position: relative;
+  left: -300px;
+  top: -240px;
+}
+
+.ttl-kalab {
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+  left: -400px;
+}

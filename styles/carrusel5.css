@@ -1,0 +1,48 @@
+.cont-mail {
+  text-align: center; /* Alinea el contenido al centro */
+}
+
+.cont-mail img {
+  max-width: 240px; /* Establece el ancho de la imagen */
+  height: auto; /* Mantiene la relación de aspecto */
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+
+.txt-kamail {
+  background-color: transparent;
+  color: gray;
+  padding: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: -150px;
+  position: relative;
+  left: -250px;
+  top: -100px;
+}
+
+.ttl-kamail {
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 200px;
+  left: -350px;
+}
+
+.go-mail {
+  display: inline-block;
+  padding: 8px 20px 10px;
+  margin: 8px 8px 0 0;
+  border-radius: 24px;
+  background-color: whitesmoke;
+  font-family: KakaoBig, Apple SD Gothic Neo, Malgun Gothic, 맑은 고딕,
+    sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: black;
+  position: relative;
+  top: -100px;
+  left: -250px;
+}

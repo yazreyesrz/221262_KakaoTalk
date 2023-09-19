@@ -1,0 +1,65 @@
+#bntShare,
+#btnFace,
+#btnTwitter,
+#btnLink {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: KakaoSmall, Apple SD Gothic Neo, Malgun Gothic, 맑은 고딕,
+    sans-serif;
+  font-weight: 400;
+  color: #333;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.lista-compartir #btnShare #btnFace #btnTwitter #btnLink {
+  width: 36px;
+  height: 36px;
+  justify-content: space-evenly;
+}
+#btnShare img {
+  width: 36px;
+  height: 36px;
+  fill: grey;
+}
+
+ul {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#btnFace img {
+  width: 36px;
+  height: 36px;
+  fill: grey;
+}
+
+#btnTwitter img {
+  width: 36px;
+  height: 36px;
+  fill: grey;
+}
+
+#btnLink img {
+  width: 36px;
+  height: 36px;
+  fill: grey;
+}
+
+.lista-compartir {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+
+/*circle {
+  cx: 18;
+  cy: 18;
+  r: 18;
+}
+
+#btnLink img #btnFace img #btnShare img #btnTwitter img {
+  fill: white;
+}*/

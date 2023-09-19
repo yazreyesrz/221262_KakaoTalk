@@ -1,0 +1,55 @@
+#bntShare2,
+#btnFace2,
+#btnTwitter2,
+#btnLink2 {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: KakaoSmall, Apple SD Gothic Neo, Malgun Gothic, 맑은 고딕,
+    sans-serif;
+  font-weight: 400;
+  color: #333;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.lista-compartir2 #btnShare2 #btnFace2 #btnTwitter2 #btnLink2 {
+  width: 26px;
+  height: 26px;
+  justify-content: space-evenly;
+}
+#btnShare2 img {
+  width: 26px;
+  height: 26px;
+  fill: grey;
+}
+
+.lista-compartir2 {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#btnFace2 img {
+  width: 26px;
+  height: 26px;
+  fill: grey;
+}
+
+#btnTwitter2 img {
+  width: 26px;
+  height: 26px;
+  fill: grey;
+}
+
+#btnLink2 img {
+  width: 26px;
+  height: 26px;
+  fill: grey;
+}
+
+.lista-compartir2 {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}

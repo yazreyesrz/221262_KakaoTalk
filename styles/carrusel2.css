@@ -1,0 +1,106 @@
+.carousel2 {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between; /* Espaciado entre los botones */
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.slide2 {
+  display: none;
+  text-align: right;
+}
+
+.slide2 img {
+  max-width: 40%;
+  height: auto;
+  position: relative;
+  left: -0px;
+  top: ;
+}
+
+.emojis {
+  background-color: transparent;
+  color: gray;
+  padding: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: -450px;
+  position: relative;
+  top: ;
+  left: -300px;
+}
+
+.txt-emojis {
+  background-color: transparent;
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: -500px;
+  left: -300px;
+}
+
+#prevdos,
+#nextdos {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#prevdos img,
+#nextdos img {
+  width: 30px; /* Establece el ancho deseado */
+  height: 30px;
+}
+
+/*.nav-izq {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+    }
+    
+    .nav-der {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+    }*/
+
+.nav-der2 .nav-izq2 {
+  justify-content: space-evenly;
+  top: 50px;
+  left: -200px;
+}
+
+#nextdos {
+  position: relative;
+  top: -300px;
+  left: 320px;
+}
+
+#prevdos {
+  position: relative;
+  top: -300px;
+  left: 50px;
+}
+
+.go-service {
+  display: inline-block;
+  padding: 8px 20px 10px;
+  margin: 8px 8px 0 0;
+  border-radius: 24px;
+  background-color: whitesmoke;
+  font-family: KakaoBig, Apple SD Gothic Neo, Malgun Gothic, 맑은 고딕,
+    sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: black;
+  position: relative;
+  left: -300px;
+  top: -10px;
+}
